@@ -1,0 +1,35 @@
+{
+  "native": {
+    "path_ignore": [
+      "libs"
+    ]
+  },
+  "publish": {
+    "web": 0,
+    "native": 1,
+    "path": "bin-release"
+  },
+  "egret_version": "3.2.3",
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "res"
+    },
+    {
+      "name": "eui"
+    },
+    {
+      "name": "tween"
+    },
+    {
+      "name": "pureMVC",
+      "path": "pureMVC"
+    },
+    {
+      "name": "jquery",
+      "path": "jquery"
+    }
+  ]
+}

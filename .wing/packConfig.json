@@ -1,0 +1,8 @@
+{
+    "maxImageWidth": 2014,
+    "maxImageHeight": 2014,
+    "defaultResPath": "d:\\EgretProjects\\EUITest\\resource\\default.res.json",
+    "packGroups": {
+        "preload": true
+    }
+}

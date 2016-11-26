@@ -1,0 +1,4 @@
+class ButtonStateStruct
+{
+    ButtonEnable : boolean[];
+}
