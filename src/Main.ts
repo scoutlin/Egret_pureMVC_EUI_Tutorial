@@ -39,6 +39,7 @@ class Main extends eui.UILayer {
     private fish:egret.Bitmap;
     private mBingoCard_UI:BingoCard_UI;
     private htmlBody:HTMLElement;
+    private mBingoTestForDemo:BingoTestForDemo;
     //End
 
     protected createChildren(): void {
@@ -220,6 +221,13 @@ class Main extends eui.UILayer {
         this.mBingoCard_UI = new BingoCard_UI();
         this.addChild(this.mBingoCard_UI);
 
+            
+        //Eui Test BingoTestForDemo
+        //Start
+        this.mBingoTestForDemo = new BingoTestForDemo()
+        this.addChild(this.mBingoTestForDemo);
+        console.log(this.mBingoTestForDemo.GetCredit);      
+        //End
 
 
         //Test OK
@@ -310,11 +318,13 @@ class Main extends eui.UILayer {
         {
             this.fish.visible = false;
             this.mBingoCard_UI.HideNumber(false);
+            this.mBingoTestForDemo.SetCredit(99999);
         }
         else
         {
             this.fish.visible = true;
             this.mBingoCard_UI.HideNumber(true);
+            this.mBingoTestForDemo.SetCredit(11111);
         }
     }
 }

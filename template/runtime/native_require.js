@@ -25,6 +25,7 @@ var game_file_list = [
 	"bin-debug/ThemeAdapter.js",
 	"bin-debug/View/BingoCardMediator.js",
 	"bin-debug/View/UI_Component/BingoCard_UI.js",
+	"bin-debug/View/UI_Component/BingoTestForDemo.js",
 	//----auto game_file_list end----
 ];
 

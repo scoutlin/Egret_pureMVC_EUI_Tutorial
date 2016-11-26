@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin width="400" height="300" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" class="skins.BingoTestForDemo">
+	<e:Label id="credit" text="credit:" x="41" y="40" anchorOffsetX="0" width="245" anchorOffsetY="0" height="82" textColor="0xaac741" size="72" displayAsPassword="false"/>
+</e:Skin>
